@@ -10,5 +10,5 @@ This mostly exists to experiment with the Firehose as a first dable with it.
 Images are available from this repo's container registry.
 
 ```
-docker pull ghcr.io/benclapp/bsky_firehose_exporter:latest
+docker run --rm -p 10025:10025 ghcr.io/benclapp/bsky_firehose_exporter:latest
 ```
